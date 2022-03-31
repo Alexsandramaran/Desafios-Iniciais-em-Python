@@ -1,10 +1,6 @@
-a, b, c = input().split(" ")
-a = float(a)
-b = float(b)
-c = float(c)
-if (a >= b+c) or (b >= a+c) or (c >= a+b):
-    area = float(((a + b) * c) / 2)
-    print("Area = %.1f"%(area))
+a = [float(x) for x in input().split()]
+
+if a[0] + a[1] > a[2] and a[0] + a[2] > a[1] and a[1] + a[2] > a[0]:  
+  print(f"Perimetro = {sum(a):.1f}")
 else:
-    perimetro = a + b + c
-    print("Perimetro = %.1f"%(perimetro))
+  print(f"Area = {((a[0] + a[1]) *  a[2]) / 2:.1f}")
