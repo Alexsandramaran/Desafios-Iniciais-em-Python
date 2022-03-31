@@ -32,7 +32,7 @@ A entrada contém três valores reais.
 ### Saída
 O resultado deve ser apresentado com uma casa decimal
 
-![image](https://user-images.githubusercontent.com/78243487/161083929-83f66a1e-2b72-48f0-a40c-4b92d8e8aa35.png)
+![image](https://user-images.githubusercontent.com/78243487/161103447-f003ad9b-5ba2-438f-bed3-5381d0043b08.png)
 
 
 # Desafio Conversão de Tempo
